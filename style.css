@@ -1,0 +1,231 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #fceabb, #f8b500); /* Light yellow-orange gradient */
+    transition: background 0.3s;
+}
+    
+/* Container Box */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%
+    max-width: 800px;
+    text-align: center;
+    margin: auto
+}
+
+/* Input Section */
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #007BFF;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Buttons */
+button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+#add-task {
+    background: #28a745;
+    color: white;
+}
+
+#add-task:hover {
+    background: #218838;
+}
+
+/* Task List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons inside tasks */
+/* Complete Button */
+.complete-btn {
+    background: #28a745; /* Green */
+    color: white;
+    border-radius: 5px;
+    padding: 5px 8px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.complete-btn:hover {
+    background: #218838; /* Darker Green */
+}
+
+/* Edit Button */
+.edit-btn {
+    background: #ffc107; /* Yellow */
+    color: black;
+    border-radius: 5px;
+    padding: 5px 8px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.edit-btn:hover {
+    background: #e0a800; /* Darker Yellow */
+}
+
+/* Delete Button */
+.delete-btn {
+    background: #ffffff; /* White background */
+    color: red; /* Keep the red ❌ visible */
+    border: 2px solid red; /* Add a red border */
+    border-radius: 5px;
+    padding: 5px 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background: #ffcccc; /* Light red hover effect */
+}
+
+
+/* Task Text */
+.task-text {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Completed Task */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Toggle Dark Mode */
+#toggle-theme {
+    background: #6c757d;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+#toggle-theme:hover {
+    background: #5a6268;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .container {
+    background: #1e1e1e;
+    color: white;
+}
+
+.dark-mode input {
+    background: #2c2c2c;
+    color: white;
+    border: 2px solid #007BFF;
+}
+
+.dark-mode button {
+    color: white;
+}
+
+.dark-mode li {
+    background: #333;
+    color: white;
+}
+
+/* Dark mode button text color fix */
+.dark-mode .filter-section button {
+    color: white;
+    background: #444; /* Slightly darker background */
+    border: 1px solid white;
+}
+
+.dark-mode .filter-section button:hover {
+    background: #666;
+}
+
+
+.dark-mode .complete-btn { background: #20c997; }
+.dark-mode .edit-btn { background: #ffc107; }
+.dark-mode .delete-btn { background: #e74c3c; }
+
+.priority {
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.priority.low {
+    background-color: #2ecc71; /* Green */
+    color: white;
+}
+
+.priority.medium {
+    background-color: #f39c12; /* Orange */
+    color: white;
+}
+
+.priority.high {
+    background-color: #e74c3c; /* Red */
+    color: white;
+}
+
+.progress-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+progress {
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+}
+
+#progress-text {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
