@@ -27,7 +27,8 @@ This app allows users to **add, edit, complete, delete, and prioritize tasks** w
 
 ## 📷 Screenshots  
 
-(📌 *Add relevant screenshots here after uploading the project to GitHub*)  
+![image](https://github.com/user-attachments/assets/687329bb-a1f1-4615-863d-9d7ac5444ac6)
+
 
 ---
 
