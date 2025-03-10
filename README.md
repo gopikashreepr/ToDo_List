@@ -27,7 +27,7 @@ This app allows users to **add, edit, complete, delete, and prioritize tasks** w
 
 ## 📷 Screenshots  
 
-![image](https://github.com/user-attachments/assets/687329bb-a1f1-4615-863d-9d7ac5444ac6)
+![To-Do List Screenshot](https://github.com/gopikashreepr/ToDo_List/issues/1#issue-2907498097)
 
 
 ---
