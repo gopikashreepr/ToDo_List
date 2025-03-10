@@ -36,9 +36,8 @@ This app allows users to **add, edit, complete, delete, and prioritize tasks** w
 
 ```plaintext
 📂 To-Do-List-App
- ├── 📁 assets
- │   ├── 📄 styles.css  # CSS Styling
- │   ├── 📄 script.js   # JavaScript Functionality
- │   ├── 📄 index.html  # Main HTML File
+ ├── 📄 styles.css  # CSS Styling
+ ├── 📄 script.js   # JavaScript Functionality
+ ├── 📄 index.html  # Main HTML File
  ├── 📄 README.md       # Project Documentation
  ├── 📄 .gitignore      # Git Ignore File
